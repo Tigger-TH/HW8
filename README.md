@@ -8,7 +8,7 @@ Course: 310-2203 Back-End Software Development\
 GitHub: [Tigger-TH](https://github.com/Tigger-TH)
 
 === Website Info ===\
-URL (Local / IIS): http://localhost:8080\
+URL (Local / IIS): http://localhost:8080 \
 Public URL (GitHub Pages): https://tigger-th.github.io/HW8/ \
 Number of Pages: 8\
 Menu Structure: Home | About | CV | Portfolio | Contact
