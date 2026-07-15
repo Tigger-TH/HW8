@@ -1,22 +1,22 @@
 # HW8-Report: Personal Homepage (HTML + CSS + Cloud)
 
-=== Student Info ===
-Name: นฤชิต บุญยัง
-Student ID: 6810301012
-Institute: สถาบันเทคโนโลยีจิตรลดา (คณะเทคโนโลยีดิจิทัล สาขาวิศวกรรมคอมพิวเตอร์)
-Course: 310-2203 Back-End Software Development
+=== Student Info ===\
+Name: นฤชิต บุญยัง\
+Student ID: 6810301012\
+Institute: สถาบันเทคโนโลยีจิตรลดา (คณะเทคโนโลยีดิจิทัล สาขาวิศวกรรมคอมพิวเตอร์)\
+Course: 310-2203 Back-End Software Development\
 GitHub: [Tigger-TH](https://github.com/Tigger-TH)
 
-=== Website Info ===
-URL (Local / IIS): http://localhost:8080
-Public URL (GitHub Pages): https://tigger-th.github.io/HW8/
-Number of Pages: 8
+=== Website Info ===\
+URL (Local / IIS): http://localhost:8080\
+Public URL (GitHub Pages): https://tigger-th.github.io/HW8/ \
+Number of Pages: 8\
 Menu Structure: Home | About | CV | Portfolio | Contact
 
 === Pages Detail ===
 
---- Page ---
-File Name: index.html
+--- Page ---\
+File Name: index.html\
 Description: หน้าแรกของเว็บไซต์ แนะนำตัวสั้น ๆ พร้อมรูปโปรไฟล์ และการ์ดลิงก์ไปยังอีก 4 ส่วนหลักของเว็บไซต์ (About, CV, Portfolio, Contact)
 Code:
 ```html
@@ -25,8 +25,8 @@ Code:
 </div>
 ```
 
---- Page ---
-File Name: about.html
+--- Page ---\
+File Name: about.html\
 Description: แนะนำตัวโดยละเอียด ความสนใจด้าน Computer Networks เครื่องมือที่ใช้งานประจำ และรายการสิ่งที่กำลังสนใจศึกษาอยู่
 Code:
 ```html
@@ -39,8 +39,8 @@ Code:
 </div>
 ```
 
---- Page ---
-File Name: cv.html
+--- Page ---\
+File Name: cv.html\
 Description: ประวัติย่อ (CV/Resume) แสดงข้อมูลการศึกษา ประสบการณ์/โครงงานเรียงตามลำดับการบ้าน (HW2 → HW5 → HW6 → HW7) ทักษะแบบ chip จัดกลุ่มตามหมวดหมู่ และช่องทางติดต่อ
 Code:
 ```html
@@ -53,8 +53,8 @@ Code:
 </div>
 ```
 
---- Page ---
-File Name: portfolio.html
+--- Page ---\
+File Name: portfolio.html\
 Description: รวมผลงานการบ้านทั้งหมด 7 รายการ (HW2–HW8) แต่ละรายการแสดงชื่อ คำอธิบาย แท็ก และปุ่ม View / Download
 Code:
 ```html
@@ -72,8 +72,8 @@ Code:
 </div>
 ```
 
---- Page ---
-File Name: contact.html
+--- Page ---\
+File Name: contact.html\
 Description: ฟอร์มติดต่อ ประกอบด้วยช่องกรอกชื่อ-นามสกุล (text) อีเมล (email) และข้อความ (textarea) พร้อมปุ่มส่งข้อความ
 Code:
 ```html
@@ -93,20 +93,20 @@ Code:
 </form>
 ```
 
---- Page ---
-File Name: portfolio-detail-1.html
+--- Page ---\
+File Name: portfolio-detail-1.html\
 Description: หน้ารายละเอียดผลงาน HW2 — Address Book (C# WinForms) พร้อมภาพหน้าจอโปรแกรมจริง 2 ภาพ และลิงก์ดาวน์โหลดซอร์สโค้ด
 
---- Page ---
-File Name: portfolio-detail-2.html
+--- Page ---\
+File Name: portfolio-detail-2.html\
 Description: หน้ารายละเอียดผลงาน HW6 — UML Diagrams สำหรับระบบขายตั๋วภาพยนตร์/คอนเสิร์ต พร้อมภาพ Use Case Diagram และ Class Diagram จริงจากไฟล์งาน
 
---- Page ---
-File Name: portfolio-detail-3.html
+--- Page ---\
+File Name: portfolio-detail-3.html\
 Description: หน้ารายละเอียดผลงาน HW7 — การตั้งค่า IIS และพัฒนาเว็บแนะนำตัวเบื้องต้น ซึ่งเป็นจุดเริ่มต้นของเว็บไซต์ส่วนตัวชิ้นนี้
 
-=== CSS Code ===
-ไฟล์ css/style.css ใช้แนวคิด "Entity Card" — การ์ดผลงานและ CV ถูกออกแบบให้มีหน้าตาคล้ายตาราง (table) ในฐานข้อมูล เพื่อเชื่อมโยงกับเนื้อหาที่เรียน (Back-End Software Development)
+=== CSS Code ===\
+ไฟล์ css/style.css ใช้แนวคิด "Entity Card" — การ์ดผลงานและ CV ถูกออกแบบให้มีหน้าตาคล้ายตาราง(table) ในฐานข้อมูล เพื่อเชื่อมโยงกับเนื้อหาที่เรียน (Back-End Software Development)
 
 ```css
 :root{
@@ -151,8 +151,8 @@ Layout ใช้ CSS Grid (`.entity-grid`, `.grid-2`) และ Flexbox (`.nav`,
 - CV Page: ✅
 - Images: ✅ (ภาพหน้าจอโปรแกรมและ UML Diagram จริงจากผลงาน + รูปโปรไฟล์)
 
-=== Cloud Deployment ===
-Platform: GitHub Pages
-Public URL: https://tigger-th.github.io/HW8/
-Description: เว็บไซต์ Static (HTML + CSS + JavaScript เล็กน้อยสำหรับดาวน์โหลดไฟล์) ไม่มีการพึ่งพา Server-side จึง Deploy ได้โดยตรงผ่าน GitHub Pages
+=== Cloud Deployment ===\
+Platform: GitHub Pages\
+Public URL: https://tigger-th.github.io/HW8/ \
+Description: เว็บไซต์ Static (HTML + CSS + JavaScript เล็กน้อยสำหรับดาวน์โหลดไฟล์) ไม่มีการพึ่งพา Server-side จึง Deploy ได้โดยตรงผ่าน GitHub Pages\
 Status: ✅
