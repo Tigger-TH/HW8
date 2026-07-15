@@ -1,4 +1,3 @@
-# HW8
 # HW8-Report: Personal Homepage (HTML + CSS + Cloud)
 
 === Student Info ===
